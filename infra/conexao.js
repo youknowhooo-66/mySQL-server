@@ -10,3 +10,11 @@ const conexao = mysql.createConnection({
 conexao.connect()
 
 export default conexao;
+
+// const conexao = mysql.createConnection({
+//     host: 'centerbeam.proxy.rlwy.net',
+//     user: 'root',
+//     password: 'DnTtJHCoDVKumyPzoBGaDbxBGpktTzmc',
+//     database: 'railway',
+//     port: '38218'
+// })
